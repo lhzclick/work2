@@ -1,0 +1,37 @@
+/*css reset  默认样式重置*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd,form,input,select,textarea{
+	margin: 0;
+}
+ul,ol,th,td,input,textarea{
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+table{
+	border-collapse: collapse;
+}
+form,input,select,textarea{
+	outline: none;
+}
+textarea{
+	resize: none;
+	overflow: auto;
+}
+/*清浮动*/
+.clear:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.clear{
+	zoom: 1;
+}
